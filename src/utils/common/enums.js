@@ -4,4 +4,13 @@ const USER_ROLE_ENUM = {
     FLIGHT_COMPANY: 'flight_company'
 };
 
-module.exports = USER_ROLE_ENUM;
+const NOTIF_STATUS_ENUM = {
+    PENDING: "pending",
+    CANCELLED: "cancelled",
+    BOOKED: "booked"
+};
+
+module.exports = {
+    NOTIF_STATUS_ENUM,
+    USER_ROLE_ENUM
+};
