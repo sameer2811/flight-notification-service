@@ -12,6 +12,4 @@ const emailTransporter = nodeMailer.createTransport({
     }
 });
 
-console.log("Sameer singh ", GMAIL_EMAIL, GMAIL_APP_PASSWORD);
-
 module.exports = emailTransporter;

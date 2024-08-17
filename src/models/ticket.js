@@ -2,6 +2,11 @@
 const {
   Model
 } = require('sequelize');
+
+const {
+  NOTIF_STATUS_ENUM
+} = require('../utils/common/enums');
+
 module.exports = (sequelize, DataTypes) => {
   class Ticket extends Model {
     /**
